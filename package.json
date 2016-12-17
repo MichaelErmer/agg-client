@@ -9,7 +9,8 @@
     "posttest": "npm run coverage && npm run coverage:check",
     "coverage": "node ./node_modules/istanbul/lib/cli.js cover --preserve-comments ./node_modules/mocha/bin/_mocha -- -R spec",
     "coverage:check": "node ./node_modules/istanbul/lib/cli.js check-coverage --branch 100 --statement 100",
-    "lint": "standard --fix --verbose | snazzy"
+    "lint": "standard --fix --verbose | snazzy",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
