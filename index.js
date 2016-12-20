@@ -13,8 +13,6 @@ function AggClient (options) {
   self.options = _.defaults(options, {
     port: 4333,
     host: '127.0.0.1',
-    timeout: 60000,
-    read_encoding: 'buffer',
     keepalive: 10000
   });
   function keepalive (err, data) {
