@@ -35,5 +35,10 @@
     "mocha": "^3.0.0",
     "snazzy": "^5.0.0",
     "standard": "^8.0.0"
+  },
+  "dependencies": {
+    "agg-commands": "0.0.3",
+    "byline": "^5.0.0",
+    "lodash": "^4.17.2"
   }
 }
